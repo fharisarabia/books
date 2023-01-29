@@ -21,7 +21,7 @@ export const initAuth = (dispatch) => {
     return gapi.client.init({
       // Put your client ID here. See https://developers.google.com/identity/protocols/OAuth2UserAgent
       // for how to create one.
-      clientId: '',
+      clientId: '6gub87lb6kk8khheklttdcfrh8chtmh4',
       scope: 'https://www.googleapis.com/auth/books'
     }).then(() => {
       GoogleAuth = gapi.auth2.getAuthInstance();
